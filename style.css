@@ -2,8 +2,30 @@ body {
     background-color:#D7C066;
   }
 
+  p  {
+	color: #336633;
+	font-family:  Arial;
+	text-align: justify;
+	font-size: 18px;
+    width: 85%;
+	margin: 35px;
+  }
+
+h1{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 400%;
+    font-style: italic;
+    color: #284de2;
+    margin-left: 600px;
+    }
+
 a:hover {
-    background-color: gold;
+    color:#D1481B;
+background: #EAE8E1;
+border-bottom: 3px solid #336633;
+font-weight: bold;
+text-decoration: none;
+}
   }
 
 h3 {
