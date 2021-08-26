@@ -1,8 +1,27 @@
-table
-{
+body {
+    background-color:#D7C066;
+  }
+
+a:hover {
+    background-color: gold;
+  }
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0033CC;
+	font-size: 16px;
+	margin-left: 25px;
+}
+
+table {
     border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
     
 }
+
+td, th {
+	background-color: #DDDCBD;
+}
+
 td
 {
     border: 3px solid;
