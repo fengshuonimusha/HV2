@@ -3,6 +3,16 @@ body{
   }
 
 
+.fond{
+  background-color:#EEE8AA
+}
+
+
+.logo{
+  box-shadow: 6px 6px 6px #6495ed;
+}
+
+
 header{
   box-shadow: 6px 6px 6px #336633;
   }
@@ -20,7 +30,6 @@ p{
 	font-size: 18px;
   width: 85%;
 	margin: 35px;
-  background-color:#EEE8AA
   }
 
 
@@ -35,12 +44,16 @@ h1{
   }
 
 
-  
-
-.logo{
-  box-shadow: 6px 6px 6px #6495ed;
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+	color: #0033CC;
+  background-color: #999933;
+	font-size: 16px;
+	margin-left: 25px;
+  text-align: center;
+  border: 3px solid darkgoldenrod;
+  border-radius: 10px;
 }
-
 
 
 h3{
