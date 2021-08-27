@@ -1,112 +1,127 @@
 body{
-    background-color:#D7C066;
-  }
+  background-color:#D7C066;
+}
 
 
 .fond{
-  background-color:#EEE8AA
+background-color:#EEE8AA
 }
 
 
 .logo{
-  box-shadow: 6px 6px 6px #6495ed;
+box-shadow: 6px 6px 6px #6495ed;
 }
 
 
 header{
-  box-shadow: 6px 6px 6px #336633;
-  }
-
-
-menu{
-  box-shadow: 6px 6px 6px #336633;
-  }
+box-shadow: 6px 6px 6px #336633;
+}
 
 
 p{
-	color: #336633;
-	font-family:  Arial;
-	text-align: justify;
-	font-size: 18px;
-  width: 85%;
-	margin: 35px;
-  }
+color: #336633;
+font-family:  Arial;
+text-align: justify;
+font-size: 18px;
+width: 85%;
+margin: 35px;
+}
 
 
 h1{
-  font-family: Verdana,Arial,sans-serif;
-  font-size: 400%;
-  font-style: italic;
-  color: #284de2;
-  margin-left: 600px;
-  border: 3px solid darkgoldenrod;
-  border-radius: 10px;
-  }
+font-family: Verdana,Arial,sans-serif;
+font-size: 400%;
+font-style: italic;
+color: #284de2;
+margin-left: 600px;
+border: 3px solid darkgoldenrod;
+border-radius: 10px;
+}
 
 
 h2{
-  font-family: Arial, Helvetica, sans-serif;
-	color: #0033CC;
-  background-color: #999933;
-	font-size: 16px;
-	margin-left: 25px;
-  text-align: center;
-  border: 3px solid darkgoldenrod;
-  border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+color: #0033CC;
+background-color: #999933;
+font-size: 16px;
+margin-left: 25px;
+text-align: center;
+border: 3px solid darkgoldenrod;
+border-radius: 10px;
 }
 
 
 h3{
-	font-family: Arial, Helvetica, sans-serif;
-	color: #0033CC;
-  background-color: #999933;
-	font-size: 16px;
-	margin-left: 25px;
-  text-align: center;
-  border: 3px solid darkgoldenrod;
-  border-radius: 10px;
-  }
-    
+font-family: Arial, Helvetica, sans-serif;
+color: #0033CC;
+background-color: #999933;
+font-size: 16px;
+margin-left: 25px;
+text-align: center;
+border: 3px solid darkgoldenrod;
+border-radius: 10px;
+}
+
+menu{
+ box-shadow: 6px 6px 6px #336633;
+ text-align: center;/*pourquoi ça centre pas la nav?*/
+ }
+
+
+nav{
+box-shadow: #336633;
+}
+
+
+ol {
+padding:0;
+margin:auto;
+width:50%;
+min-width:450px;
+text-align:center;
+border: solid red;
+}
+
 
 a:hover{
-  color:#D1481B;
-  background: #EAE8E1;
-  border-bottom: 3px solid #336633;
-  font-weight: bold;
-  text-decoration: none;
+color:#D1481B;
+background: #EAE8E1;
+border: 3px solid #336633;
+font-weight: bold;
+text-decoration: none;
 }
-  
+
 
 table {
-  border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
 
 }
 
 td, th {
-	background-color: #DDDCBD;
+background-color: #DDDCBD;
 }
 
 td {
-  border: 3px solid;
-  color: #325928;
+border: 3px solid;
+color: #325928;
 }
 
 figure {
-  border: thin #c0c0c0 solid;
-  padding: 5px;
-  max-width: 220px;
-  margin: auto;
+border: thin #c0c0c0 solid;
+padding: 5px;
+max-width: 220px;
+margin: auto;
 }
 
 img {
-  max-width: 440px;
-  max-height: 300px;
+max-width: 440px;
+max-height: 300px;
 }
 
 figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
+background-color: #222;
+color: #fff;
+font: italic smaller sans-serif;
+padding: 3px;
+text-align: center;
 }
